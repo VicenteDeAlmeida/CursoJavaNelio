@@ -8,6 +8,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * Solução ruim: Toda a lógica de validação no programa principal
+ * */
+
 public class ProgramaExecutor {
     public static void main(String[] args) throws ParseException {
         Scanner sc = new Scanner(System.in);
